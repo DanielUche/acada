@@ -7,23 +7,23 @@
 
     <!-- Page title set in pageTitle directive -->
  
-    <link rel="stylesheet" href="{{asset('public/css/bootstrap.min.css') }}">
+     {!! Html::style('public/css/bootstrap.min.css') !!}
     <!-- Fonts -->
-    <link rel="stylesheet" href="{{asset('public/css/font-awesome/css/font-awesome.min.css') }}" >
+    {!! Html::style('public/css/font-awesome/css/font-awesome.min.css') !!}
     <!-- Main CSS files -->
-    <link href="{{asset('public/css/animate.css') }}" rel="stylesheet">
+    {!! Html::style('public/css/animate.css') !!}
     
-     <link href="{{asset('public/css/toastr.min.css') }}" rel="stylesheet">
-     <link href="{{asset('public/css/ladda-themeless.min.css') }}" rel="stylesheet"> 
-     <link href="{{asset('public/css/style.css') }}" rel="stylesheet">
-     <link href="{{asset('public/css/angular-datepicker.min.css') }}" rel="stylesheet">
+     {!! Html::style('public/css/toastr.min.css') !!}
+     {!! Html::style('public/css/ladda-themeless.min.css') !!}
+     {!! Html::style('public/css/style.css') !!}
+     {!! Html::style('public/css/angular-datepicker.min.css') !!}
 
-    <script src="{{asset('public/js/jquery-2.1.1.min.js') }}"></script>
-    <script src="{{asset('public/js/jquery-ui/jquery-ui.js') }}"></script>
-    <script src="{{asset('public/js/bootstrap.min.js') }}"></script>
-    <script src="{{asset('public/js/angular.min.js') }}"></script>
+    {!! Html::script('public/js/jquery-2.1.1.min.js') !!}
+    {!! Html::script('public/js/jquery-ui/jquery-ui.js') !!}
+    {!! Html::script('public/js/bootstrap.min.js') !!}
+    {!! Html::script('public/js/angular.min.js') !!}
 
-    <script src="{{asset('public/js/toastr.min.js') }}"></script>
+    {!! Html::script('public/js/toastr.min.js') !!}
     
     <title>Acada</title>
 
@@ -88,18 +88,17 @@
 </script>
 
 
-<script src="{{asset('public/js/spin.min.js') }}"></script>
-<script src="{{asset('public/js/ladda.min.js') }}"></script>
-<script src="{{asset('public/js/angular-ladda.min.js') }}"></script>
-<script src="{{asset('public//js/ui-bootstrap-tpls-1.1.2.min.js') }}"></script>
-<script src="{{asset('public/js/angular-animate.min.js') }}"></script>
-<script src="{{asset('public/js/angular-resource.min.js') }}"></script>
-<script src="{{asset('public/js/moment.min.js') }}"></script>
-<script src="{{asset('public/js/angular-datepicker.min.js') }}"></script>
-<script src="{{asset('public/ajaxy/app.js') }}"></script>
-<script src="{{asset('public/ajaxy/config.js') }}"></script>
-<script src="{{asset('public/ajaxy/controllers.js') }}"></script>
-<script src="{{asset('public/ajaxy/utilities.js') }}"></script>
-<script src="{{asset('public/ajaxy/directives.js') }}"></script>
+{!! Html::script('public/js/spin.min.js') !!}
+{!! Html::script('public/js/ladda.min.js') !!}
+{!! Html::script('public/js/angular-ladda.min.js') !!}
+{!! Html::script('public/js/ui-bootstrap-tpls-1.1.2.min.js') !!}
+{!! Html::script('public/js/angular-animate.min.js') !!}
+{!! Html::script('public/js/angular-resource.min.js') !!}
+{!! Html::script('public/js/moment.min.js') !!}
+{!! Html::script('public/js/angular-datepicker.min.js') !!}
+{!! Html::script('public/ajaxy/app.js') !!}
+{!! Html::script('public/ajaxy/config.js') !!}
+{!! Html::script('public/ajaxy/controllers.js') !!}
+{!! Html::script('public/ajaxy/utilities.js') !!}
 </body>
 </html>
