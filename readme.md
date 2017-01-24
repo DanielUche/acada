@@ -1,6 +1,6 @@
 # Acada
 
-A video embed application built with Laravel and Angular 1
+A video embed application built with Laravel and Angular 1.
 
 ## Application Features
 
