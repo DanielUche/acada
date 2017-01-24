@@ -2,9 +2,14 @@
 
 A video embed application built with Laravel and Angular 1 that 
 
-## Official Documentation
+## Application Features
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+1.  Authentication: Registration Sign In social mediation authentication
+2.  User Profile Management
+3.  YouTube video embeding - Authenticated user only
+4.  Browse all videos
+5.  Browse videos by category
+6.  View single video
 
 ## Contributing
 
